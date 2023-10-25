@@ -1,0 +1,11 @@
+framework module WhisprStream {
+  umbrella header "WhisprStream.h"
+  export *
+
+  module * { export * }
+}
+
+module WhisprStream.Swift {
+  header "WhisprStream-Swift.h"
+  requires objc
+}

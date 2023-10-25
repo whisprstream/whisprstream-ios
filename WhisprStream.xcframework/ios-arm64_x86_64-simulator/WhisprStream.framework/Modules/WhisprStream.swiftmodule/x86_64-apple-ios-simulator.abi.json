@@ -1,0 +1,435 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisprStream",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisprStream"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "WhisprStream"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Whispr",
+        "printedName": "Whispr",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Whispr",
+                "printedName": "WhisprStream.Whispr",
+                "usr": "s:12WhisprStream0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12WhisprStream0A0C6sharedACvpZ",
+            "mangledName": "$s12WhisprStream0A0C6sharedACvpZ",
+            "moduleName": "WhisprStream",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Whispr",
+                    "printedName": "WhisprStream.Whispr",
+                    "usr": "s:12WhisprStream0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WhisprStream0A0C6sharedACvgZ",
+                "mangledName": "$s12WhisprStream0A0C6sharedACvgZ",
+                "moduleName": "WhisprStream",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12WhisprStream0A0C4hostSSvp",
+            "mangledName": "$s12WhisprStream0A0C4hostSSvp",
+            "moduleName": "WhisprStream",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WhisprStream0A0C4hostSSvg",
+                "mangledName": "$s12WhisprStream0A0C4hostSSvg",
+                "moduleName": "WhisprStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WhisprStream0A0C4hostSSvs",
+                "mangledName": "$s12WhisprStream0A0C4hostSSvs",
+                "moduleName": "WhisprStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12WhisprStream0A0C4hostSSvM",
+                "mangledName": "$s12WhisprStream0A0C4hostSSvM",
+                "moduleName": "WhisprStream",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(deviceToken:isSandbox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WhisprStream0A0C8register11deviceToken9isSandboxy10Foundation4DataV_SbtF",
+            "mangledName": "$s12WhisprStream0A0C8register11deviceToken9isSandboxy10Foundation4DataV_SbtF",
+            "moduleName": "WhisprStream",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExternalIdentifier",
+            "printedName": "setExternalIdentifier(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12WhisprStream0A0C21setExternalIdentifier10identifierySS_tF",
+            "mangledName": "$s12WhisprStream0A0C21setExternalIdentifier10identifierySS_tF",
+            "moduleName": "WhisprStream",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12WhisprStream0A0C",
+        "mangledName": "$s12WhisprStream0A0C",
+        "moduleName": "WhisprStream",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 25,
+      "value": "\"com.whisprstream.whispr\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 8,
+      "value": "\"Whispr\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 21,
+      "value": "\"tokencollector.json\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 1097,
+      "length": 48,
+      "value": "\"phtozq50zc.execute-api.us-east-1.amazonaws.com\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1209,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 1474,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
+      "length": 9,
+      "value": "\"sandbox\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 31,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 1,
+      "value": "\"\/LATEST\/tokens\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 2718,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 2754,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 2794,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 3156,
+      "length": 18,
+      "value": "\"response data %@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 3284,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 3465,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 3618,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 3981,
+      "length": 18,
+      "value": "\"Data saved to %@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 4102,
+      "length": 23,
+      "value": "\"Error saving data: %@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 4245,
+      "length": 25,
+      "value": "\"Error encoding data: %@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 4659,
+      "length": 24,
+      "value": "\"Error loading data: %@\""
+    },
+    {
+      "filePath": "\/Users\/laurent\/Developer\/lgaches\/WhisprStream\/WhisprStream\/Whispr.swift",
+      "kind": "StringLiteral",
+      "offset": 5070,
+      "length": 20,
+      "value": "\"Data File Path: %@\""
+    }
+  ]
+}
